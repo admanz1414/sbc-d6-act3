@@ -1,7 +1,11 @@
-for loop
-for i in range(5, 1, -1):
+
+n = int(input("Enter the number of rows: "))
+
+for i in range(n, 0, -1):
      print("*" * i)
-print("*" + " " * 3 + "*")
-for x in range(2, 6):
-     print("*" * x)
-print("GGWP")
+     
+print("*" + " " *(n-2) + "*")
+
+for i in range(2, n + 1):
+     print("*" * i)
+    
